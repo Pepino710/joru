@@ -1,0 +1,31 @@
+//
+// Event Styles
+//
+
+// CT - Event
+.node-type-isepoc-event {
+  
+  @extend %metadata;
+  
+  .addressfield-container-inline {
+    display: inline;
+    
+    &:after {
+      display: inline;
+      padding-right: .5em;
+      content: " ";
+    }
+  }
+  
+  h2.pane-title {
+    @extend %pane---title; 
+  }  
+}
+
+// CT - Event Serie
+.node-type-isepoc-event-serie {
+  
+  h2.pane-title {
+    @extend %pane---title; 
+  }  
+}

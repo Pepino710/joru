@@ -1,0 +1,45 @@
+//
+// Skills Styles
+//
+
+#skills {
+    
+  .panel-main-content {
+    
+    .pane-title {
+      @extend %pane---title; 
+      margin-top: 1em;
+    }
+
+    .view-skills {
+
+      ul {
+        margin-top: .5em;
+      }
+
+      .views-row {
+        border: none;
+        overflow: hidden;
+      }
+      
+      .views-field-title {
+        float: left;
+        
+        h3 {
+          margin: 0;
+          padding-right: .5em;
+        }
+      } 
+      
+      .views-field-field-public-subtitle {
+        margin-top: .3em;
+        font-weight: bold;
+      }
+      
+      .views-field-field-public-body {
+        clear: both;
+      }
+  
+    } 
+  }
+}

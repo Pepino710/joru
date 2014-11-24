@@ -1,0 +1,90 @@
+//
+// Blocks
+//
+
+
+// Sidebar Second
+.l-region--sidebar-second {
+  
+  .block__title, .pane-title {
+    @extend %block---title;
+    @include vertical-margin(1.6em, 0);
+  }
+  
+  .block__content {
+    .views-row {
+      @extend %block---content-row;
+    }
+    .views-row-first {
+      @extend %block---content-first-row;
+    }
+    a {
+      @include link-style($navy, none, $violet, none); 
+      @extend %block---content-link;
+    }
+  }
+  
+  a.active {
+    font-weight: bold;
+  }
+}
+
+// Panel Pane
+.panel-pane {
+  
+  .pane-title {
+    @extend %block---title;
+    @include vertical-margin(2em, $vertical-bottom-margin);
+  }
+    
+  .view { 
+    .views-row {
+      @extend %block---content-row;
+    }
+    .views-row-first {
+      @extend %block---content-first-row;
+    }
+    tr.views-row-first {
+      border: 1px solid $light-gray-2;
+    }
+    
+    a {
+      @include link-style($navy, none, $violet, none); 
+      @extend %block---content-link;
+    }
+    .show-all-hp {
+      @extend %show---all-hp;
+    }
+    .show-all {
+      text-align: right;
+      margin-top: .5em;
+      
+      a {
+       @include link-style($turquoise, underline, $turquoise, none); 
+      }
+    }
+  }
+  
+  // aktivní položky menu budou bold
+  a.active {
+    font-weight: bold;
+  }
+}
+
+// References and Partners Links
+.references-and-partners-links {
+        
+  p {
+    padding: .7em .5em;
+    color: $white;
+    background: $violet-lighter;
+
+    &:first-child {
+      background: $turquoise-lighter;
+    }   
+  }
+
+  a {
+    @include link-style($white, none, $white, underline);
+  }
+}

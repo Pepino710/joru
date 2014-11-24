@@ -1,0 +1,44 @@
+//
+// Trading Styles
+//
+
+.panel-pane.top-metadata {
+  @extend %top-metadata; 
+  
+  a {
+    @include link-style($gray, underline, $gray, none); 
+  }
+}
+
+.trading-metadata {
+  @extend %metadata;
+  
+  .field__label {
+    width: auto;
+  }
+}
+
+.trading-metadata-vertical {
+  
+  .pane-title {
+    background: none;
+    color: $black;
+    text-transform: none;
+    padding: 0 .5em;
+    border-bottom: 2px solid $gray;
+  }
+  
+  .field__item {
+    @extend %block---content-row;
+    list-style: none;
+    list-style-image: none;
+
+    &:first-child {
+      @extend %block---content-first-row;
+    }
+  }
+  
+  a {
+    @include link-style($navy, none, $violet, none); 
+  }
+}

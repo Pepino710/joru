@@ -1,0 +1,50 @@
+//
+// Global Search
+//
+
+#block-search-form {
+  
+  @include breakpoint(800px) {
+    @include grid-span(5, 12);
+  }
+  
+  // search button
+  #edit-actions, #edit-actions--2, #edit-actions--3 {
+    position: relative;
+    margin-top: -2.4em;
+
+    @include breakpoint(800px) {
+      @include grid-span(1, 5, 5);
+    }
+
+    input {
+      background: $search-icon center right no-repeat;
+      color: transparent;
+      height: inherit;
+      width: inherit;
+      border: none;
+      margin: 0;
+
+      &:hover {
+        background: $white $search-icon center right no-repeat;
+      }
+    }
+  }
+}
+
+h2, .form-item-search-block-form {
+  margin: 0;
+}
+
+// search input
+#edit-search-block-form--2, #edit-search-block-form--4 {
+  border: none;
+  color: $navy;
+  padding: .5em;
+  width: 100%;
+  background: $white;
+}
+
+
+
+

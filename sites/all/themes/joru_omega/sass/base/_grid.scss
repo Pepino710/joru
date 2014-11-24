@@ -1,0 +1,55 @@
+//
+// Grid
+//
+
+// 16-GRID
+@media all and (min-width: 800px) {
+  
+  // No Sidebar exists
+// .no-sidebars {
+    
+    //.l-content { 
+    //  @include grid-span(16,1);
+    //}  
+ // }
+  
+  // Only 1st Sidebar exists
+  .sidebar-first {
+    
+    .l-content {
+      @include grid-span(12,5,16);
+    }
+
+    .l-region--sidebar-first {
+      @include grid-span(4,1,16);
+    }
+  }
+  
+  // Only 2nd Sidebar exists
+  .sidebar-second {
+    
+    .l-content {
+      @include grid-span(12,1,16);
+    }
+
+    .l-region--sidebar-second {
+      @include grid-span(4,13,16);
+    }
+  }
+  
+  // Both Sidebars exist
+  .two-sidebars {
+   
+    .l-content {
+      @include grid-span(8,5,16);
+    }
+
+    .l-region--sidebar-first {
+      @include grid-span(4,1,16);
+    }
+
+    .l-region--sidebar-second {
+      @include grid-span(4,13,16);
+    }
+  }
+}

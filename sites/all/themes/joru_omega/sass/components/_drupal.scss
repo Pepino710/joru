@@ -1,0 +1,53 @@
+//
+// Drupal Section Styles
+//
+
+// Drupal Programs Pane
+.pane-drupal-drupal-programs-pane {
+  
+  .views-exposed-widget {
+    padding-right: .5em;   
+  }
+  
+  .views-widget-filter-title input {
+    width: 20em;
+  }
+  
+  .views-submit-button .form-submit {
+    margin-top: 1.3em;
+  }
+}
+
+// Drupal Categories Pane
+.pane-drupal-categories-drupal-categories-pane {
+  
+  .views-exposed-widget {
+    padding-right: .5em;   
+  }
+    
+  .views-submit-button .form-submit {
+    margin-top: 0;
+  }
+}
+
+// CT - Drupal Categories
+.taxonomy-term--drupal-categories {
+  
+  .field--name-field-isepoc-note {
+    @extend %private-note-and-extract;
+  }
+}
+
+// CT - Drupal Program
+#ct-drupal-program {
+  
+  @extend %metadata;
+    
+  .field--name-field-drupal-note {
+    @extend %private-note-and-extract;
+  }
+}
+
+
+
+

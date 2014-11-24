@@ -1,0 +1,140 @@
+//
+// Custom Extends
+//
+
+// Default for input fields
+%text---box {
+  border: 1px solid $light-gray-2;
+  background: $light-gray-4;
+  
+  &:focus {
+    border: 1px solid $violet;
+    background: $violet-bg;
+  }
+}
+
+// Default Button
+%default---button {
+  padding: .5em 1.5em;
+  background: $navy;
+  border: none;
+  color: $white;
+  
+  &:hover, &:active {
+    background: $violet;
+  }
+}
+
+// Default Block Title
+%block---title {
+  background: $navy $menu-icon .5em center no-repeat;
+  text-transform: uppercase;
+  color: $white;
+  font-size: $h3-font-size;
+  padding: 0 .5em 0 3em;
+  font-weight: normal; 
+}
+
+%pane---title {
+  color: $turquoise-pastel;
+  background: none;
+  border: none;
+  font-size: $h2-font-size;
+  padding: 0;
+}
+
+// Default Block Content Row
+%block---content-row {
+  padding: .6em;
+  border-top: 1px solid $light-gray-2;
+}
+
+// Default Block Content 1st Row
+%block---content-first-row {
+  border: none;
+}
+
+// Default Block Content Link
+%block---content-link {  
+  padding: .5em 0;
+}
+
+// Default style for Privat Note & Extracts
+%private-note-and-extract {
+  
+  .field__label {
+    width: 100%;
+    text-align: left;
+    margin-top: 1.5em;
+    padding: .5em 0;
+    font-size: $h3-font-size;
+    color: $navy;
+    border-bottom: 1px solid $navy;
+  }
+
+  .field__item {
+    padding: 0;
+  }
+
+  p {
+    margin: 1em 0;
+  }
+}
+
+%top-metadata {
+  font-size: $h5-font-size;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 2em 0 0;
+  color: $gray;
+  
+  .pane-title {
+    background: none;
+    text-transform: none;
+    font-size: $h5-font-size;
+    color: $gray;
+    font-family: $ubuntu;
+    margin: -5px 0 0;
+    float: left;
+    padding: 0 .5em 0 0;
+    
+    &:after {
+      content: ':';
+    }
+  }
+}
+
+%metadata {
+  
+  .field__label {
+    width: 15em;
+    text-align: right;
+    padding: .05em 0;
+    float: left;
+  }
+  
+  .field__items {
+    padding: .05em 0;
+  }
+  
+  .field__item {
+    display: inline;
+    padding: 0 1em;
+  }
+}
+
+%show---all-hp {
+ background: $light-gray-2;
+ text-align: center;
+ padding: .6em 0;
+}
+
+
+%mini-pager {
+  
+  li {
+    list-style-image: none;
+    list-style-type: none;
+    display: inline;
+  }
+}

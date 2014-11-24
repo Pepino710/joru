@@ -1,0 +1,22 @@
+//
+// Slideshow Styles
+//
+
+// Flexslider
+#flexslider-1 {
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  
+  .flex-control-nav {
+    bottom: -30px;
+
+    a {
+      padding: 0;
+    }
+  } 
+}
+
+

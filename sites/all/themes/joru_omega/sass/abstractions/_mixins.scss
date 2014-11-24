@@ -1,0 +1,28 @@
+//
+// Custom Mixins
+//
+
+// link mixin with default link styles set as project default
+@mixin link-style ($color: $navy, $decor: underline, $color-hover: $turquoise-pastel, $decor-hover: none){
+  &:link, &:visited {
+    color: $color;
+    text-decoration: $decor;
+  }
+  &:hover, &:active {
+    color: $color-hover;
+    text-decoration: $decor-hover;
+  }
+}
+
+@mixin vertical-margin ($top-margin: $vertical-top-margin, $bot-margin: $vertical-bottom-margin){
+  
+  margin-top: $top-margin;
+  margin-bottom: $bot-margin;
+}
+
+@mixin vertical-padding ($top-padding: $vertical-top-padding, $bot-padding: $vertical-bottom-padding){
+  
+  padding-top: $top-padding;
+  padding-bottom: $bot-padding;
+}
+

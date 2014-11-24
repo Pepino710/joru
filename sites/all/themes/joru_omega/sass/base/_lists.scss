@@ -1,0 +1,20 @@
+//
+// Lists
+//
+
+
+ul {
+  list-style-image: url(../images/ul-icon.png); 
+  
+  li {
+   padding: .2em;
+  }
+}
+
+ul ul {
+  list-style-image: url(../images/ul-icon.png); 
+    
+  li {
+   padding: .1em;
+  }
+}

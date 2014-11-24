@@ -1,0 +1,223 @@
+//
+// Navigation
+//
+
+// User Menu
+#block-system-user-menu {
+  font-size: $h5-font-size;
+  @include breakpoint(800px) {
+    @include grid-span(3, 2, 5);
+  }
+  
+  ul {
+    background: $lock-icon center left no-repeat;
+    padding: 1em 0 1em 4em;
+    margin: 0;
+  }
+  
+  li {
+    display: inline;
+    margin: 1em;
+  }
+  
+}
+
+
+// Main Menu
+#block-system-main-menu {
+  clear: both;
+  
+  @include breakpoint(800px) {
+    @include grid-span(9, 3);
+  }
+  
+  .menu {
+    background: $navy;
+    margin: 0;
+    padding: 0;
+    padding: .6em 0;
+  }
+  
+  li {
+    display: inline;
+    padding: .6em 0;
+    border-right: 1px solid $white;
+  }
+  
+  li.first {
+    margin-left: none;
+  }
+  
+  li.last {
+    border:none;
+  }
+  
+  a {
+    @include link-style ($white, none, $white, none );
+    padding: .65em 1.5em;
+    margin-left: -.25em;
+    text-transform: uppercase;
+    
+    &:hover, &:active {
+      background: $turquoise-pastel;
+    }
+  }
+}
+
+// Nice Menu - Main Menu
+#block-nice-menus-1 {
+  clear: both;
+  
+  @include breakpoint(800px) {
+    @include grid-span(9, 3);
+  }
+  
+  #nice-menu-1 {
+    background: $navy;
+    margin: 0;
+    padding: 0;
+    float: none;
+    
+    // 1st level ul
+    ul {
+     margin-top: .73em;
+     border: none;
+     
+     li {
+      width: 15em;
+      border: none; 
+     }
+     
+     a {
+       text-transform: none;
+       background-image: none;
+     }
+    } 
+  }
+  
+  li {
+    display: inline;
+    padding: 0;
+    border: none;
+    border-right: 1px solid $white;
+    box-shadow: none;
+  }
+  
+  li.first {
+    margin-left: none;
+  }
+  
+  li.last {
+    border:none;
+  }
+  
+  a {
+    @include link-style ($white, none, $white, none );
+    padding: .65em 2em .65em 1em;
+    text-transform: uppercase;
+    background: $navy;
+   
+    &:hover, &:active {
+      background: $navy-lighter;
+    }
+  }
+    
+  .menuparent a {
+    background: $navy $menu-dropdown-icon right center no-repeat;
+
+    &:hover, &:active {
+      background: $navy-lighter $menu-dropdown-icon right center no-repeat;;
+    }
+  }
+  
+  a.add-menu-link {
+    background: $violet;
+
+    &:hover, &:active {
+      background: $violet-lighter;
+    }
+  }
+}
+
+// Drupal Default Breadcrumbs
+.breadcrumb {
+  //clear: both;
+  padding: .8em 0;
+  margin: 0;
+  border-bottom: 1px solid $light-gray-2;
+  font-style: italic;
+  font-size: $h5-font-size;
+    
+  li {
+    display: inline;
+    list-style: none;
+    list-style-image: none;
+    padding: .6em 1em .6em 3em;
+    background: $breadcrumb-delimeter left center no-repeat;
+  }
+  
+  li:first-child {
+    background: none;
+    padding: .6em 1em .6em 0;
+  }
+  
+  a {
+    //color: $gray-darkest;
+    padding: .6em 0;
+  }
+}
+
+// Primary Tabs
+.tabs--primary {
+  border-bottom: 1px solid $light-gray-2;
+  
+  li {
+    list-style: none;
+    list-style-image: none;
+    border: none;
+    padding: 0;
+    
+    &.active {
+      border: 1px solid $light-gray-2;
+      border-bottom: none;
+    }
+  }
+  
+  a {
+    @include link-style($navy, none, $turquoise-pastel, none); 
+    background: transparent;  
+    padding: .5em 1em;
+    margin-bottom: -1px;
+    
+    &:hover {
+      background: transparent;
+    }
+    
+    &.active {
+      background: transparent;
+      color: $turquoise-pastel;
+      border-bottom: 1px solid $white;
+    }
+  }
+}
+
+.pane-menu-menu-read-menu, 
+.pane-menu-menu-trading-menu {
+  .menu {
+    padding: 0;
+  
+    li {
+      @extend %block---content-row;
+      list-style: none;
+      list-style-image: none;
+
+      &:first-child {
+        @extend %block---content-first-row;
+      }
+    }
+    
+    a {
+      @include link-style($navy, none, $violet, none); 
+    }
+  }
+}

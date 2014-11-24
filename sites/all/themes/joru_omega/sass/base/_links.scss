@@ -1,0 +1,21 @@
+//
+// Link Definitions
+//
+
+// Default Link
+a {
+  @include link-style(); 
+  cursor: pointer;
+}
+
+// Address `outline` inconsistency between Chrome and other browsers. (ZEN)
+a:focus {
+  //outline: thin dotted; // puvodni ZEN setting...
+  outline: none; // ... já to vypínám
+}
+
+//Improve readability when focused and also mouse hovered in all browsers. (ZEN)
+a:active,
+a:hover {
+  outline: 0;
+}

@@ -1,0 +1,69 @@
+//
+// OC Styles
+//
+
+// General OC Elements
+.submitted {
+  margin: 0 0 .5em;
+  font-size: $h5-font-size;
+  color: $gray;
+}
+
+.node-readmore {
+  list-style-type: none;
+  list-style-image: none;
+}
+
+
+// HP Latest Blog pane
+.hp-latest-blog-pane {
+  
+  .field--name-field-isepoc-images {
+    
+    img {
+      margin: .5em 1em .5em 0;    
+    }  
+  }
+  
+  .node-readmore {
+    float: right;
+  }
+  
+  .show-all {
+    @extend %show---all-hp;
+  } 
+}
+
+// Blog page = View Public OC
+.view-public-oc {
+  
+  .field--name-field-isepoc-images {
+    
+    img {
+      margin: .5em 1.5em .5em 0;    
+    }  
+  }
+}
+
+// Oc - Landing Page
+.view-oc {
+  
+  .views-widget-filter-field_isepoc_content_format_tid {
+    clear: both;
+  } 
+}
+
+.oc-tags-pane {
+  
+  .views-exposed-widget {
+    padding-right: .5em;   
+  }
+    
+  .views-submit-button .form-submit {
+    margin-top: 1.3em;
+  }
+  
+  .pager {
+    @extend %mini-pager;
+  }
+}

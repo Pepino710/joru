@@ -1,0 +1,174 @@
+//
+// Contacts
+//
+
+
+// Individual
+.entity-crm-core-contact {
+  @include vertical-padding(.5em, 1.5em);
+  
+  .field--name-field-isepoc-image {
+    //float: left;
+    @include breakpoint(800px) {
+      @include grid-span(3, 1, 11);
+    }
+  }
+  
+  .field--type-text,
+  .field--type-link-field,
+  .field--type-twitter-username,
+  .field--type-entityreference,
+  .field--type-addressfield,
+  .field--name-field-isepoc-email,
+  .field--name-field-public-crm-category {
+    @include breakpoint(800px) {
+      @include grid-span(8, 4, 11);
+    }  
+  }
+  
+  @extend %metadata;
+  
+  .field--name-field-isepoc-website .field__item {
+    display: block;
+  }
+  
+  .field--type-addressfield .field__items {
+    margin: -1.3em 0 0 1em;
+  }
+  
+  .field--name-field-isepoc-note {
+    clear: both;
+    padding-top: 2em;
+    
+    .field__label {
+      text-align: left;
+      float: none;
+      width: 100%;
+      margin-top: 2em;
+    }
+    
+    .field__item {
+      display: block;
+      padding: 0;
+    }
+  }
+}
+
+// IS CRM - Authors on CT-IS Detail
+.author-host-pane {
+  margin-top: 2em;
+  
+}
+
+// Custom Contact Detail Landing Page
+#custom-contact-detail {
+  
+  h2 {
+    display: none;
+  }
+  
+  img {
+    margin-top: -1em;
+  }
+}
+
+
+
+//
+// Public Contact Page
+//
+
+// Contact Form
+.contact-site-form {
+  
+  .form-type-textfield input {
+    width: 100%;
+  }
+  
+  .form-type-checkbox {
+    
+    input {
+      margin-top: -.1em;
+    }
+    
+    label {
+      margin-right: .2em;  
+    }  
+  }
+}
+
+// Contact Details pane
+.pane-is-crm-contact-pane {
+  
+  .pane-title {
+    margin-top: 1em;
+  }
+  
+  .views-field-field-isepoc-image {
+    text-align: center; 
+    
+    img {
+      margin: 1em;
+    }
+  }
+  
+  .views-field-rendered-entity {
+    text-align: center;
+  }
+  
+  .views-field-field-isepoc-mobile,
+  .views-field-field-isepoc-email {
+    text-align: center;
+        
+    .views-label {
+      float: left;
+      margin-right: .5em;
+      font-weight: bold;
+      text-align: right;
+      width: 10em;
+    }
+    
+    .field-content {
+      text-align: left;
+    }
+  }
+}
+
+// Social Links
+.social-links {
+  margin: 1.5em 0;
+  text-align: center;
+  
+  .social-link {
+    width: 58px;
+    height: 58px;
+    color: transparent;
+    //text-indent: -9999px;
+    display: inline-block;
+    margin: 0 .2em;
+  }
+  
+  .twitter-icon {
+    background: $twitter-icon center center no-repeat;
+  }
+  .github-icon {
+    background: $github-icon center center no-repeat;
+  }
+  .gplus-icon {
+    background: $gplus-icon center center no-repeat;
+  }
+  .youtube-icon {
+    background: $youtube-icon center center no-repeat;
+  }
+  .rss-icon {
+    background: $rss-icon center center no-repeat;
+  }
+  .linkedin-icon {
+    background: $linkedin-icon center center no-repeat;
+  }
+  .fb-icon {
+    background: $fb-icon center center no-repeat;
+  }
+  
+  
+}

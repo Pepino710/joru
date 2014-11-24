@@ -1,0 +1,41 @@
+//
+// Tables
+//
+
+
+table {
+  /* Remove most spacing between table cells. */
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* Prevent cramped-looking tables */
+  width: 100%;
+  /* Add vertical rhythm margins. */
+  @include leader(1);
+  @include trailer(1);
+}
+
+tr {
+  border: 1px solid $light-gray-2;
+  //min-height: 4em;
+}
+
+th {
+  
+  background: $light-gray-3;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1em;
+}
+
+td {
+  padding: 1em;
+  
+  .odd & {
+    background: $white;
+  }
+
+  .even & {
+    background: $light-gray-4;
+  }
+}
+

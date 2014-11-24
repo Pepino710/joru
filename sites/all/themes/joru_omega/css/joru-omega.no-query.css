@@ -1,0 +1,1040 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\000036}}
+input, textarea, select {
+  border: 1px solid #ced5d7;
+  background: #f5f7f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000310}}
+  input:focus, textarea:focus, select:focus {
+    border: 1px solid #a13f7d;
+    background: #faf5f8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000317}}
+button, #edit-button,
+#edit-submit, #edit-submit--2, #edit-submit--3,
+.form-submit {
+  padding: .5em 1.5em;
+  background: #3d679c;
+  border: none;
+  color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000323}}
+  button:hover, #edit-button:hover,
+  #edit-submit:hover, #edit-submit--2:hover, #edit-submit--3:hover,
+  .form-submit:hover, button:active, #edit-button:active,
+  #edit-submit:active, #edit-submit--2:active, #edit-submit--3:active,
+  .form-submit:active {
+    background: #a13f7d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000329}}
+.l-region--sidebar-second .block__title, .l-region--sidebar-second .pane-title, .panel-pane .pane-title {
+  background: #3d679c url(../images/menu-icon.png) 0.5em center no-repeat;
+  text-transform: uppercase;
+  color: white;
+  font-size: 18.2px;
+  padding: 0 .5em 0 3em;
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000338}}
+.node-type-isepoc-event h2.pane-title, .node-type-isepoc-event-serie h2.pane-title, .node-type-isepoc-is-serie h2.pane-title, #skills .panel-main-content .pane-title {
+  color: #7ebaca;
+  background: none;
+  border: none;
+  font-size: 23.8px;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000347}}
+.l-region--sidebar-second .block__content .views-row, .panel-pane .view .views-row, .pane-menu-menu-read-menu .menu li,
+.pane-menu-menu-trading-menu .menu li, .trading-metadata-vertical .field__item {
+  padding: .6em;
+  border-top: 1px solid #ced5d7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000353}}
+.l-region--sidebar-second .block__content .views-row-first, .panel-pane .view .views-row-first, .pane-menu-menu-read-menu .menu li:first-child,
+.pane-menu-menu-trading-menu .menu li:first-child, .trading-metadata-vertical .field__item:first-child {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000358}}
+.l-region--sidebar-second .block__content a, .panel-pane .view a {
+  padding: .5em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000365}}
+.taxonomy-term--drupal-categories .field--name-field-isepoc-note .field__label, #ct-drupal-program .field--name-field-drupal-note .field__label, #ct-is .field--name-field-isepoc-note .field__label, .node-type-isepoc-is .field--name-field-isepoc-note .field__label {
+  width: 100%;
+  text-align: left;
+  margin-top: 1.5em;
+  padding: .5em 0;
+  font-size: 18.2px;
+  color: #3d679c;
+  border-bottom: 1px solid #3d679c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000375}}
+.taxonomy-term--drupal-categories .field--name-field-isepoc-note .field__item, #ct-drupal-program .field--name-field-drupal-note .field__item, #ct-is .field--name-field-isepoc-note .field__item, .node-type-isepoc-is .field--name-field-isepoc-note .field__item {
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000379}}
+.taxonomy-term--drupal-categories .field--name-field-isepoc-note p, #ct-drupal-program .field--name-field-drupal-note p, #ct-is .field--name-field-isepoc-note p, .node-type-isepoc-is .field--name-field-isepoc-note p {
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000384}}
+.panel-pane.top-metadata {
+  font-size: 11.62px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 2em 0 0;
+  color: gray; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\0000391}}
+  .panel-pane.top-metadata .pane-title {
+    background: none;
+    text-transform: none;
+    font-size: 11.62px;
+    color: gray;
+    font-family: "Ubuntu", sans-serif;
+    margin: -5px 0 0;
+    float: left;
+    padding: 0 .5em 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\00003101}}
+    .panel-pane.top-metadata .pane-title:after {
+      content: ':'; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\00003109}}
+.entity-crm-core-contact .field__label, #ct-drupal-program .field__label, .node-type-isepoc-event .field__label, #ct-is .is-metadata .field__label, .node-type-isepoc-is .is-metadata .field__label, .node-type-isepoc-is-serie .field__label, .trading-metadata .field__label {
+  width: 15em;
+  text-align: right;
+  padding: .05em 0;
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\00003116}}
+.entity-crm-core-contact .field__items, #ct-drupal-program .field__items, .node-type-isepoc-event .field__items, #ct-is .is-metadata .field__items, .node-type-isepoc-is .is-metadata .field__items, .node-type-isepoc-is-serie .field__items, .trading-metadata .field__items {
+  padding: .05em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\00003120}}
+.entity-crm-core-contact .field__item, #ct-drupal-program .field__item, .node-type-isepoc-event .field__item, #ct-is .is-metadata .field__item, .node-type-isepoc-is .is-metadata .field__item, .node-type-isepoc-is-serie .field__item, .trading-metadata .field__item {
+  display: inline;
+  padding: 0 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\00003126}}
+.panel-pane .view .show-all-hp, .hp-latest-blog-pane .show-all {
+  background: #ced5d7;
+  text-align: center;
+  padding: .6em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_extends\.scss}line{font-family:\00003135}}
+.is-tags-pane .pager li, .oc-tags-pane .pager li {
+  list-style-image: none;
+  list-style-type: none;
+  display: inline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\000035}}
+fieldset {
+  border: 1px solid #ced5d7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000313}}
+input, textarea {
+  padding: .5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000324}}
+button:focus, #edit-button:focus,
+#edit-submit:focus, #edit-submit--2:focus, #edit-submit--3:focus,
+.form-submit:focus {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000329}}
+#edit-cancel {
+  margin-left: .5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000334}}
+#edit-file, #edit-managed-file-upload {
+  padding: .4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000338}}
+#edit-managed-file-upload-button {
+  margin-left: .5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000343}}
+html.js input.form-autocomplete {
+  background: white url(../images/autocomplete-turquoise-pastel-25x25.png) right center no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000348}}
+html.js input.throbbing {
+  background: #faf5f8 url(../images/autocomplete-active-violet-25x25.gif) right center no-repeat;
+  border: 1px solid #a13f7d; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000354}}
+select {
+  padding: .45em;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_forms\.scss}line{font-family:\0000367}}
+  select option {
+    background: #faf5f8; }
+
+@media all and (min-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000319}}
+  .sidebar-first .l-content {
+    width: 74.68354%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000323}}
+  .sidebar-first .l-region--sidebar-first {
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000331}}
+  .sidebar-second .l-content {
+    width: 74.68354%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000335}}
+  .sidebar-second .l-region--sidebar-second {
+    width: 24.05063%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000343}}
+  .two-sidebars .l-content {
+    width: 49.36709%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.31646%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000347}}
+  .two-sidebars .l-region--sidebar-first {
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_grid\.scss}line{font-family:\0000351}}
+  .two-sidebars .l-region--sidebar-second {
+    width: 24.05063%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\000035}}
+body {
+  background: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000310}}
+.l-page {
+  width: 1280px;
+  margin: .5em auto 0;
+  border-top: 7px solid #7ebaca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000321}}
+  .navbar-tray-open .l-page, .page-admin-appearance-styleguide .l-page {
+    top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000329}}
+.l-branding {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000332}}
+  .l-branding .site-name {
+    margin: 0;
+    position: absolute;
+    top: .8em;
+    left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+  .l-branding a:link, .l-branding a:visited {
+    color: #3d679c;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+  .l-branding a:hover, .l-branding a:active {
+    color: #a13f7d;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000343}}
+  .l-branding .site-slogan {
+    font-size: 18.2px;
+    color: #3d679c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000352}}
+  .l-branding .slogan-author {
+    font-style: italic;
+    padding-left: 1em;
+    font-weight: normal;
+    font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000366}}
+.l-region--navigation {
+  clear: both;
+  border-bottom: 1px solid #3d679c;
+  height: 2.53em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000372}}
+.l-main {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000378}}
+.l-content,
+.l-region--sidebar-second,
+.l-region--sidebar-second {
+  margin-top: 0;
+  margin-bottom: 1.5em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000382}}
+.l-footer {
+  background: black;
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_layout\.scss}line{font-family:\0000386}}
+  .l-footer p {
+    padding: 1em .5em;
+    color: white;
+    font-size: 11.62px;
+    text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_links\.scss}line{font-family:\000036}}
+a {
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+  a:link, a:visited {
+    color: #3d679c;
+    text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+  a:hover, a:active {
+    color: #7ebaca;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_links\.scss}line{font-family:\0000312}}
+a:focus {
+  outline: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_links\.scss}line{font-family:\0000319}}
+a:active,
+a:hover {
+  outline: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_lists\.scss}line{font-family:\000036}}
+ul {
+  list-style-image: url(../images/ul-icon.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_lists\.scss}line{font-family:\000039}}
+  ul li {
+    padding: .2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_lists\.scss}line{font-family:\0000314}}
+ul ul {
+  list-style-image: url(../images/ul-icon.png); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_lists\.scss}line{font-family:\0000317}}
+  ul ul li {
+    padding: .1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_tables\.scss}line{font-family:\000036}}
+table {
+  /* Remove most spacing between table cells. */
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* Prevent cramped-looking tables */
+  width: 100%;
+  /* Add vertical rhythm margins. */
+  margin-top: 1.71429em;
+  margin-bottom: 1.71429em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_tables\.scss}line{font-family:\0000317}}
+tr {
+  border: 1px solid #ced5d7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_tables\.scss}line{font-family:\0000322}}
+th {
+  background: #ecf0f1;
+  font-style: italic;
+  font-weight: bold;
+  padding: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_tables\.scss}line{font-family:\0000330}}
+td {
+  padding: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_tables\.scss}line{font-family:\0000333}}
+  .odd td {
+    background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_tables\.scss}line{font-family:\0000337}}
+  .even td {
+    background: #f5f7f8; }
+
+/* GLOBAL SETTINGS */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000319}}
+html {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000361}}
+  html * html {
+    font-size: 87.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Ruby193\/lib\/ruby\/gems\/1\.9\.1\/gems\/compass-0\.12\.6\/frameworks\/compass\/stylesheets\/compass\/typography\/_vertical_rhythm\.scss}line{font-family:\0000364}}
+  html html {
+    font-size: 14px;
+    line-height: 1.71429em; }
+
+/* TYPOGRAPHY */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000331}}
+p,
+pre {
+  margin: 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000338}}
+blockquote {
+  margin: 1.71429em 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000343}}
+h1 {
+  font-size: 2.6em;
+  line-height: 1.31868em;
+  margin-top: 0.65934em;
+  margin-bottom: 0.65934em;
+  color: #7ebaca; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000354}}
+h2 {
+  font-size: 1.7em;
+  line-height: 2.01681em;
+  margin-top: 1.0084em;
+  margin-bottom: 1.0084em;
+  color: #7ebaca; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000361}}
+h3 {
+  font-size: 1.3em;
+  line-height: 1.31868em;
+  margin-top: 1.31868em;
+  margin-bottom: 1.31868em;
+  color: #7ebaca; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000368}}
+h4 {
+  font-size: 1em;
+  line-height: 1.71429em;
+  margin-top: 1.71429em;
+  margin-bottom: 1.71429em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000374}}
+h5 {
+  font-size: 0.83em;
+  line-height: 2.0654em;
+  margin-top: 2.0654em;
+  margin-bottom: 2.0654em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/base\/_typography\.scss}line{font-family:\0000380}}
+h6 {
+  font-size: 0.67em;
+  line-height: 2.55864em;
+  margin-top: 2.55864em;
+  margin-bottom: 2.55864em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\000039}}
+.l-region--sidebar-second .block__title, .l-region--sidebar-second .pane-title {
+  margin-top: 1.6em;
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+.l-region--sidebar-second .block__content a:link, .l-region--sidebar-second .block__content a:visited {
+  color: #3d679c;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+.l-region--sidebar-second .block__content a:hover, .l-region--sidebar-second .block__content a:active {
+  color: #a13f7d;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000327}}
+.l-region--sidebar-second a.active {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000335}}
+.panel-pane .pane-title {
+  margin-top: 2em;
+  margin-bottom: 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000347}}
+.panel-pane .view tr.views-row-first {
+  border: 1px solid #ced5d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+.panel-pane .view a:link, .panel-pane .view a:visited {
+  color: #3d679c;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+.panel-pane .view a:hover, .panel-pane .view a:active {
+  color: #a13f7d;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000358}}
+.panel-pane .view .show-all {
+  text-align: right;
+  margin-top: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+  .panel-pane .view .show-all a:link, .panel-pane .view .show-all a:visited {
+    color: #418ca0;
+    text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+  .panel-pane .view .show-all a:hover, .panel-pane .view .show-all a:active {
+    color: #418ca0;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000369}}
+.panel-pane a.active {
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000377}}
+.references-and-partners-links p {
+  padding: .7em .5em;
+  color: white;
+  background: #b46597; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_blocks\.scss}line{font-family:\0000382}}
+  .references-and-partners-links p:first-child {
+    background: #67a3b3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+.references-and-partners-links a:link, .references-and-partners-links a:visited {
+  color: white;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+.references-and-partners-links a:hover, .references-and-partners-links a:active {
+  color: white;
+  text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_calendar\.scss}line{font-family:\000036}}
+.ui-datepicker select {
+  color: black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\000037}}
+.entity-crm-core-contact {
+  padding-top: 0.5em;
+  padding-bottom: 1.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000331}}
+  .entity-crm-core-contact .field--name-field-isepoc-website .field__item {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000335}}
+  .entity-crm-core-contact .field--type-addressfield .field__items {
+    margin: -1.3em 0 0 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000339}}
+  .entity-crm-core-contact .field--name-field-isepoc-note {
+    clear: both;
+    padding-top: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000343}}
+    .entity-crm-core-contact .field--name-field-isepoc-note .field__label {
+      text-align: left;
+      float: none;
+      width: 100%;
+      margin-top: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000350}}
+    .entity-crm-core-contact .field--name-field-isepoc-note .field__item {
+      display: block;
+      padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000358}}
+.author-host-pane {
+  margin-top: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000366}}
+#custom-contact-detail h2 {
+  display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000370}}
+#custom-contact-detail img {
+  margin-top: -1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000384}}
+.contact-site-form .form-type-textfield input {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000390}}
+.contact-site-form .form-type-checkbox input {
+  margin-top: -.1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\0000394}}
+.contact-site-form .form-type-checkbox label {
+  margin-right: .2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003103}}
+.pane-is-crm-contact-pane .pane-title {
+  margin-top: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003107}}
+.pane-is-crm-contact-pane .views-field-field-isepoc-image {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003110}}
+  .pane-is-crm-contact-pane .views-field-field-isepoc-image img {
+    margin: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003115}}
+.pane-is-crm-contact-pane .views-field-rendered-entity {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003120}}
+.pane-is-crm-contact-pane .views-field-field-isepoc-mobile,
+.pane-is-crm-contact-pane .views-field-field-isepoc-email {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003123}}
+  .pane-is-crm-contact-pane .views-field-field-isepoc-mobile .views-label,
+  .pane-is-crm-contact-pane .views-field-field-isepoc-email .views-label {
+    float: left;
+    margin-right: .5em;
+    font-weight: bold;
+    text-align: right;
+    width: 10em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003131}}
+  .pane-is-crm-contact-pane .views-field-field-isepoc-mobile .field-content,
+  .pane-is-crm-contact-pane .views-field-field-isepoc-email .field-content {
+    text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003138}}
+.social-links {
+  margin: 1.5em 0;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003142}}
+  .social-links .social-link {
+    width: 58px;
+    height: 58px;
+    color: transparent;
+    display: inline-block;
+    margin: 0 .2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003151}}
+  .social-links .twitter-icon {
+    background: url(../images/social-icons/twitter-icon-58x58.png) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003154}}
+  .social-links .github-icon {
+    background: url(../images/social-icons/github-icon-58x58.png) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003157}}
+  .social-links .gplus-icon {
+    background: url(../images/social-icons/gplus-icon-58x58.png) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003160}}
+  .social-links .youtube-icon {
+    background: url(../images/social-icons/youtube-icon-58x58.png) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003163}}
+  .social-links .rss-icon {
+    background: url(../images/social-icons/rss-icon-58x58.png) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003166}}
+  .social-links .linkedin-icon {
+    background: url(../images/social-icons/linkedin-icon-58x58.png) center center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_contacts\.scss}line{font-family:\00003169}}
+  .social-links .fb-icon {
+    background: url(../images/social-icons/fb-icon-58x58.png) center center no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_drupal\.scss}line{font-family:\000038}}
+.pane-drupal-drupal-programs-pane .views-exposed-widget {
+  padding-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_drupal\.scss}line{font-family:\0000312}}
+.pane-drupal-drupal-programs-pane .views-widget-filter-title input {
+  width: 20em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_drupal\.scss}line{font-family:\0000316}}
+.pane-drupal-drupal-programs-pane .views-submit-button .form-submit {
+  margin-top: 1.3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_drupal\.scss}line{font-family:\0000324}}
+.pane-drupal-categories-drupal-categories-pane .views-exposed-widget {
+  padding-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_drupal\.scss}line{font-family:\0000328}}
+.pane-drupal-categories-drupal-categories-pane .views-submit-button .form-submit {
+  margin-top: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_event\.scss}line{font-family:\0000310}}
+.node-type-isepoc-event .addressfield-container-inline {
+  display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_event\.scss}line{font-family:\0000313}}
+  .node-type-isepoc-event .addressfield-container-inline:after {
+    display: inline;
+    padding-right: .5em;
+    content: " "; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\000038}}
+#ct-is .field--name-field-isepoc-subtitle, .node-type-isepoc-is .field--name-field-isepoc-subtitle {
+  font-size: 23.8px;
+  font-style: italic;
+  margin: .5em 0 1em;
+  color: #7ebaca; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\0000315}}
+#ct-is .field--name-field-isepoc-video-files, .node-type-isepoc-is .field--name-field-isepoc-video-files {
+  margin: 1.5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\0000328}}
+#ct-is .author-host-pane .views-field-field-isepoc-image, .node-type-isepoc-is .author-host-pane .views-field-field-isepoc-image {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\0000332}}
+#ct-is .author-host-pane .views-field-rendered-entity, .node-type-isepoc-is .author-host-pane .views-field-rendered-entity {
+  text-align: center;
+  padding: .5em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\0000361}}
+.view-is .views-widget-filter-field_isepoc_content_format_tid {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\0000368}}
+.is-tags-pane .views-exposed-widget {
+  padding-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_is\.scss}line{font-family:\0000372}}
+.is-tags-pane .views-submit-button .form-submit {
+  margin-top: 1.3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\000036}}
+#block-system-user-menu {
+  font-size: 11.62px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000312}}
+  #block-system-user-menu ul {
+    background: url(../images/lock-icon.png) center left no-repeat;
+    padding: 1em 0 1em 4em;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000318}}
+  #block-system-user-menu li {
+    display: inline;
+    margin: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000327}}
+#block-system-main-menu {
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000334}}
+  #block-system-main-menu .menu {
+    background: #3d679c;
+    margin: 0;
+    padding: 0;
+    padding: .6em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000341}}
+  #block-system-main-menu li {
+    display: inline;
+    padding: .6em 0;
+    border-right: 1px solid white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000347}}
+  #block-system-main-menu li.first {
+    margin-left: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000351}}
+  #block-system-main-menu li.last {
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000355}}
+  #block-system-main-menu a {
+    padding: .65em 1.5em;
+    margin-left: -.25em;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+    #block-system-main-menu a:link, #block-system-main-menu a:visited {
+      color: white;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+    #block-system-main-menu a:hover, #block-system-main-menu a:active {
+      color: white;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}
+    #block-system-main-menu a:hover, #block-system-main-menu a:active {
+      background: #7ebaca; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000368}}
+#block-nice-menus-1 {
+  clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000375}}
+  #block-nice-menus-1 #nice-menu-1 {
+    background: #3d679c;
+    margin: 0;
+    padding: 0;
+    float: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000382}}
+    #block-nice-menus-1 #nice-menu-1 ul {
+      margin-top: .73em;
+      border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000386}}
+      #block-nice-menus-1 #nice-menu-1 ul li {
+        width: 15em;
+        border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000391}}
+      #block-nice-menus-1 #nice-menu-1 ul a {
+        text-transform: none;
+        background-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\0000398}}
+  #block-nice-menus-1 li {
+    display: inline;
+    padding: 0;
+    border: none;
+    border-right: 1px solid white;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003106}}
+  #block-nice-menus-1 li.first {
+    margin-left: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003110}}
+  #block-nice-menus-1 li.last {
+    border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003114}}
+  #block-nice-menus-1 a {
+    padding: .65em 2em .65em 1em;
+    text-transform: uppercase;
+    background: #3d679c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+    #block-nice-menus-1 a:link, #block-nice-menus-1 a:visited {
+      color: white;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+    #block-nice-menus-1 a:hover, #block-nice-menus-1 a:active {
+      color: white;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003120}}
+    #block-nice-menus-1 a:hover, #block-nice-menus-1 a:active {
+      background: #6485b0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003125}}
+  #block-nice-menus-1 .menuparent a {
+    background: #3d679c url(../images/menu-dropdown-icon.png) right center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003128}}
+    #block-nice-menus-1 .menuparent a:hover, #block-nice-menus-1 .menuparent a:active {
+      background: #6485b0 url(../images/menu-dropdown-icon.png) right center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003133}}
+  #block-nice-menus-1 a.add-menu-link {
+    background: #a13f7d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003136}}
+    #block-nice-menus-1 a.add-menu-link:hover, #block-nice-menus-1 a.add-menu-link:active {
+      background: #b46597; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003143}}
+.breadcrumb {
+  padding: .8em 0;
+  margin: 0;
+  border-bottom: 1px solid #ced5d7;
+  font-style: italic;
+  font-size: 11.62px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003151}}
+  .breadcrumb li {
+    display: inline;
+    list-style: none;
+    list-style-image: none;
+    padding: .6em 1em .6em 3em;
+    background: url(../images/breadcrumb-delimeter.png) left center no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003159}}
+  .breadcrumb li:first-child {
+    background: none;
+    padding: .6em 1em .6em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003164}}
+  .breadcrumb a {
+    padding: .6em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003171}}
+.tabs--primary {
+  border-bottom: 1px solid #ced5d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003174}}
+  .tabs--primary li {
+    list-style: none;
+    list-style-image: none;
+    border: none;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003180}}
+    .tabs--primary li.active {
+      border: 1px solid #ced5d7;
+      border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003186}}
+  .tabs--primary a {
+    background: transparent;
+    padding: .5em 1em;
+    margin-bottom: -1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+    .tabs--primary a:link, .tabs--primary a:visited {
+      color: #3d679c;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+    .tabs--primary a:hover, .tabs--primary a:active {
+      color: #7ebaca;
+      text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003192}}
+    .tabs--primary a:hover {
+      background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003196}}
+    .tabs--primary a.active {
+      background: transparent;
+      color: #7ebaca;
+      border-bottom: 1px solid white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003206}}
+.pane-menu-menu-read-menu .menu,
+.pane-menu-menu-trading-menu .menu {
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_navigation\.scss}line{font-family:\00003209}}
+  .pane-menu-menu-read-menu .menu li,
+  .pane-menu-menu-trading-menu .menu li {
+    list-style: none;
+    list-style-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+  .pane-menu-menu-read-menu .menu a:link, .pane-menu-menu-read-menu .menu a:visited,
+  .pane-menu-menu-trading-menu .menu a:link,
+  .pane-menu-menu-trading-menu .menu a:visited {
+    color: #3d679c;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+  .pane-menu-menu-read-menu .menu a:hover, .pane-menu-menu-read-menu .menu a:active,
+  .pane-menu-menu-trading-menu .menu a:hover,
+  .pane-menu-menu-trading-menu .menu a:active {
+    color: #a13f7d;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\000036}}
+.submitted {
+  margin: 0 0 .5em;
+  font-size: 11.62px;
+  color: gray; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000312}}
+.node-readmore {
+  list-style-type: none;
+  list-style-image: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000323}}
+.hp-latest-blog-pane .field--name-field-isepoc-images img {
+  margin: .5em 1em .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000328}}
+.hp-latest-blog-pane .node-readmore {
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000342}}
+.view-public-oc .field--name-field-isepoc-images img {
+  margin: .5em 1.5em .5em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000351}}
+.view-oc .views-widget-filter-field_isepoc_content_format_tid {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000358}}
+.oc-tags-pane .views-exposed-widget {
+  padding-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_oc\.scss}line{font-family:\0000362}}
+.oc-tags-pane .views-submit-button .form-submit {
+  margin-top: 1.3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\000037}}
+.view-partners .views-row {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\0000311}}
+.view-partners .views-field-field-isepoc-image {
+  float: left;
+  margin: 1em 1.5em .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\0000316}}
+.view-partners .views-field-field-public-crm-category {
+  font-style: italic;
+  margin: .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\0000321}}
+.view-partners .views-field-view {
+  margin: 1.5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\0000324}}
+  .view-partners .views-field-view .views-label {
+    margin-right: .5em;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\0000330}}
+  .view-partners .views-field-view .view-public-references {
+    text-indent: 7em;
+    margin-top: -1.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_partners\.scss}line{font-family:\0000335}}
+  .view-partners .views-field-view .views-row {
+    border: none;
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_recommendations\.scss}line{font-family:\000038}}
+.pane-promotion-hp-got-me-interested-pane .views-row {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_recommendations\.scss}line{font-family:\0000312}}
+.pane-promotion-hp-got-me-interested-pane .views-field-field-isepoc-image {
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_recommendations\.scss}line{font-family:\0000315}}
+  .pane-promotion-hp-got-me-interested-pane .views-field-field-isepoc-image img {
+    margin: .5em 1em 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_recommendations\.scss}line{font-family:\0000321}}
+.pane-promotion-hp-got-me-interested-pane .views-field-title h2 {
+  line-height: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_references\.scss}line{font-family:\000037}}
+.view-public-references .views-row {
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_references\.scss}line{font-family:\0000311}}
+.view-public-references .views-field-field-public-images {
+  float: left;
+  margin: 1em 1.5em .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_references\.scss}line{font-family:\0000316}}
+.view-public-references .views-field-field-public-body p:first-child {
+  margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_references\.scss}line{font-family:\0000322}}
+.view-public-references .views-field-field-public-client-reference,
+.view-public-references .views-field-field-public-partner-reference,
+.view-public-references .views-field-field-public-ref-cat-reference {
+  margin: .5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_references\.scss}line{font-family:\0000325}}
+  .view-public-references .views-field-field-public-client-reference .views-label,
+  .view-public-references .views-field-field-public-partner-reference .views-label,
+  .view-public-references .views-field-field-public-ref-cat-reference .views-label {
+    float: left;
+    margin-right: .5em;
+    font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_search\.scss}line{font-family:\0000312}}
+#block-search-form #edit-actions, #block-search-form #edit-actions--2, #block-search-form #edit-actions--3 {
+  position: relative;
+  margin-top: -2.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_search\.scss}line{font-family:\0000320}}
+  #block-search-form #edit-actions input, #block-search-form #edit-actions--2 input, #block-search-form #edit-actions--3 input {
+    background: url(../images/search-icon.png) center right no-repeat;
+    color: transparent;
+    height: inherit;
+    width: inherit;
+    border: none;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_search\.scss}line{font-family:\0000328}}
+    #block-search-form #edit-actions input:hover, #block-search-form #edit-actions--2 input:hover, #block-search-form #edit-actions--3 input:hover {
+      background: white url(../images/search-icon.png) center right no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_search\.scss}line{font-family:\0000335}}
+h2, .form-item-search-block-form {
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_search\.scss}line{font-family:\0000340}}
+#edit-search-block-form--2, #edit-search-block-form--4 {
+  border: none;
+  color: #3d679c;
+  padding: .5em;
+  width: 100%;
+  background: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\000039}}
+#skills .panel-main-content .pane-title {
+  margin-top: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\0000316}}
+#skills .panel-main-content .view-skills ul {
+  margin-top: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\0000320}}
+#skills .panel-main-content .view-skills .views-row {
+  border: none;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\0000325}}
+#skills .panel-main-content .view-skills .views-field-title {
+  float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\0000328}}
+  #skills .panel-main-content .view-skills .views-field-title h3 {
+    margin: 0;
+    padding-right: .5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\0000334}}
+#skills .panel-main-content .view-skills .views-field-field-public-subtitle {
+  margin-top: .3em;
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_skills\.scss}line{font-family:\0000339}}
+#skills .panel-main-content .view-skills .views-field-field-public-body {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_slideshow\.scss}line{font-family:\000036}}
+#flexslider-1 {
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_slideshow\.scss}line{font-family:\0000313}}
+  #flexslider-1 .flex-control-nav {
+    bottom: -30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_slideshow\.scss}line{font-family:\0000316}}
+    #flexslider-1 .flex-control-nav a {
+      padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+.panel-pane.top-metadata a:link, .panel-pane.top-metadata a:visited {
+  color: gray;
+  text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+.panel-pane.top-metadata a:hover, .panel-pane.top-metadata a:active {
+  color: gray;
+  text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_trading\.scss}line{font-family:\0000316}}
+.trading-metadata .field__label {
+  width: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_trading\.scss}line{font-family:\0000323}}
+.trading-metadata-vertical .pane-title {
+  background: none;
+  color: black;
+  text-transform: none;
+  padding: 0 .5em;
+  border-bottom: 2px solid gray; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/components\/_trading\.scss}line{font-family:\0000331}}
+.trading-metadata-vertical .field__item {
+  list-style: none;
+  list-style-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\000037}}
+.trading-metadata-vertical a:link, .trading-metadata-vertical a:visited {
+  color: #3d679c;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/wamp\/www\/joru\/sites\/all\/themes\/joru_omega\/sass\/abstractions\/_mixins\.scss}line{font-family:\0000311}}
+.trading-metadata-vertical a:hover, .trading-metadata-vertical a:active {
+  color: #a13f7d;
+  text-decoration: none; }

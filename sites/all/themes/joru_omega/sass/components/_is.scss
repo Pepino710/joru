@@ -1,0 +1,79 @@
+//
+// IS Styles
+//
+
+// CT - IS
+#ct-is, .node-type-isepoc-is {
+  
+  .field--name-field-isepoc-subtitle {
+    font-size: $h2-font-size;
+    font-style: italic;
+    margin: .5em 0 1em;
+    color: $turquoise-pastel;
+  }
+  
+  .field--name-field-isepoc-video-files {
+    margin: 1.5em 0;
+  }
+  
+  .field--name-field-isepoc-note {
+    @extend %private-note-and-extract;
+  }
+  
+  .author-host-pane {
+    @include breakpoint(800px) {
+      @include grid-span(3, 1, 11);
+    }
+    
+    .views-field-field-isepoc-image {
+      text-align: center;
+    }
+    
+    .views-field-rendered-entity {
+      text-align: center;
+      padding: .5em 0;
+    }  
+  }
+  
+  .is-metadata {
+    @extend %metadata;
+    @include breakpoint(800px) {
+      @include grid-span(8, 4, 11);
+    }
+  }
+}
+
+
+// CT - IS-Serie
+.node-type-isepoc-is-serie {
+ 
+  @extend %metadata;
+  
+  h2.pane-title {
+    @extend %pane---title; 
+  }
+}
+
+
+// IS - Landing Page
+.view-is {
+  
+  .views-widget-filter-field_isepoc_content_format_tid {
+    clear: both;
+  } 
+}
+
+.is-tags-pane {
+  
+  .views-exposed-widget {
+    padding-right: .5em;   
+  }
+    
+  .views-submit-button .form-submit {
+    margin-top: 1.3em;
+  }
+  
+  .pager {
+    @extend %mini-pager;
+  }
+}

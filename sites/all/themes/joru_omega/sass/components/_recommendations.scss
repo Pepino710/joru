@@ -1,0 +1,25 @@
+//
+// Recommendation Styles
+//
+
+// Got Me Interested Pane
+.pane-promotion-hp-got-me-interested-pane {
+  
+  .views-row {
+    overflow: hidden;
+  }
+  
+  .views-field-field-isepoc-image {
+    float: left;
+    
+    img {
+      margin: .5em 1em 0 0;
+    }
+    
+  }
+  
+  .views-field-title h2 {
+    line-height: 1.2em; 
+  }
+  
+}

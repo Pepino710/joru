@@ -1,0 +1,111 @@
+//
+// Form Elements
+//
+
+fieldset {
+  border: 1px solid $light-gray-2;
+}
+
+legend {
+  
+}
+
+input, textarea {
+  padding: .5em;
+  @extend %text---box;
+}
+
+// Buttons
+button, #edit-button, 
+#edit-submit, #edit-submit--2, #edit-submit--3, 
+.form-submit {
+  @extend %default---button;
+  
+  &:focus {
+    border: none;
+  }
+}
+
+#edit-cancel {
+  margin-left: .5em; 
+}
+
+// File Upload
+#edit-file, #edit-managed-file-upload {
+  padding: .4em;
+}
+
+#edit-managed-file-upload-button {
+  margin-left: .5em;
+}
+
+// Autocomplete
+html.js input.form-autocomplete {
+  background: $white $autocomplete-turquoise-pastel right center no-repeat;
+}
+
+// Autocomplete active
+html.js input.throbbing {
+  background: $violet-bg $autocomplete-active-violet right center no-repeat;
+  border: 1px solid $violet;
+}
+
+// Select
+select {
+  @extend %text---box;
+  padding: .45em;
+  cursor: pointer;
+  
+  //-webkit-appearance:none;
+  //-moz-appearance:none;
+  //appearance:none;
+  //width: 100%;
+  //text-overflow: "";
+  //text-indent: .01px;
+  //background: $white $select-icon right center no-repeat;
+  
+  option {
+    background: $violet-bg;
+  }
+}
+
+
+
+// Radio Button
+/*
+input[type="radio"] {
+  display: none;
+}
+input[type="radio"] + label:before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(../images/radio.png) left top no-repeat;
+  cursor: pointer;
+}
+input[type="radio"]:checked + label:before {
+  background: url(../images/radio-active.png) left top no-repeat;
+}
+
+// Checkbox
+input[type="checkbox"] {
+  display:none;
+}
+
+input[type="checkbox"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../images/checkbox.png) left top no-repeat;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before {
+    background: url(../images/checkbox-active.png) left top no-repeat;
+}
+*/

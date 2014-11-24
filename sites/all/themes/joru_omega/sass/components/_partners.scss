@@ -1,0 +1,40 @@
+//
+// Partners Styles
+//
+
+.view-partners {
+  
+  .views-row {
+    overflow: hidden;
+  }
+  
+  .views-field-field-isepoc-image {
+    float: left;
+    margin: 1em 1.5em .5em 0;
+  }
+  
+  .views-field-field-public-crm-category {
+    font-style: italic;
+    margin: .5em 0;
+  }
+  
+  .views-field-view {
+    margin: 1.5em 0;
+    
+    .views-label {
+      //float: left;
+      margin-right: .5em;
+      font-weight: bold;
+    }
+    
+    .view-public-references {
+      text-indent: 7em;
+      margin-top: -1.2em;
+    }
+    
+    .views-row {
+      border: none;
+      padding: 0;
+    }
+  }
+}

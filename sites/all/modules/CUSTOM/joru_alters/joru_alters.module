@@ -1,0 +1,229 @@
+<?php
+
+
+/**
+ * Implements hook_form_alter().
+ */
+function joru_alters_form_alter(&$form, &$form_state, $form_id) {
+  //dsm($form_id);
+  //dsm($form);
+  
+  
+  
+  // Gloabal Search - setting Placeholder
+  if ($form_id == 'search_block_form') {
+    
+    $form['search_block_form']['#attributes']['placeholder'] = t('Search...'); 
+  }
+    
+  
+  
+  // IS & OC node form
+  if($form_id == 'isepoc_is_node_form' || $form_id == 'isepoc_oc_node_form') {
+    
+    // listener - Tech Category
+    //$form['field_isepoc_tech_category_ref']['#states'] = array(
+    //  'visible' => array(
+    //    // caller - Main Category
+    //    'select[name="field_isepoc_main_category_ref[und]"]' => array(
+    //      'value' => 13), 
+    //  ),
+    //);
+    // listener - Fin Category
+    //$form['field_isepoc_fin_category_ref']['#states'] = array(
+    //  'visible' => array(
+    //    // caller - Main Category
+    //    'select[name="field_isepoc_main_category_ref[und]"]' => array(
+    //      'value' => 12), 
+    //  ),
+    //);
+	
+          
+    // listener - Drupal Program
+    $form['field_drupal_program_ref']['#states'] = array(
+      'invisible' => array(
+        // caller - Drupal Category
+        ':input[name="field_drupal_category[und]"]' => array(
+          'filled' => TRUE), 
+        // caller - Tech Category
+        'select[name="field_isepoc_tech_category_ref[und]"]' => array(
+          'value' => 14),
+      ),
+      'visible' => array(
+        // caller - Tech Category
+        'select[name="field_isepoc_tech_category_ref[und]"]' => array(
+          'value' => 14),
+      ),
+      
+    );
+    // listener - Drupal Category
+    $form['field_drupal_category']['#states'] = array(
+      'invisible' => array(
+        // caller - Drupal Program
+        ':input[name="field_drupal_program_ref[und][0][target_id]"]' => array(
+          'filled' => TRUE),
+        // caller - Tech Category
+        'select[name="field_isepoc_tech_category_ref[und]"]' => array(
+          'value' => 14),
+      ),
+      'visible' => array(
+        // caller - Tech Category
+        'select[name="field_isepoc_tech_category_ref[und]"]' => array(
+          'value' => 14),
+      ),    
+    );
+    // listener - Drupal Version
+    $form['field_drupal_version']['#states'] = array(
+      'visible' => array(
+        // caller - Tech Category
+        'select[name="field_isepoc_tech_category_ref[und]"]' => array(
+          'value' => 14),
+      ),    
+    );
+
+    // listener - Audio Files
+    $form['field_isepoc_audio_files']['#states'] = array(
+      'visible' => array(
+        // caller - Content Format - audio
+        ':input[name="field_isepoc_content_format[und][31]"]' => array(
+          'checked' => TRUE),
+      ),
+    );
+    // listener - Video Files
+    $form['field_isepoc_video_files']['#states'] = array(
+      'visible' => array(
+        // caller - Content Format - video
+        ':input[name="field_isepoc_content_format[und][32]"]' => array(
+          'checked' => TRUE),
+      ),
+    );
+    // listener - Document Files
+    $form['field_isepoc_document_files']['#states'] = array(
+      'visible' => array(
+        // caller - Content Format - document
+        ':input[name="field_isepoc_content_format[und][30]"]' => array(
+          'checked' => TRUE),
+      ),
+    );
+           
+    // listener - Run Time
+    $form['field_isepoc_run_time']['#states'] = array(
+      
+      // OR statement ud?lané logickou negací
+      // 1/ VISIBLE if audio AND video checked = TRUE - zobrazí run time pouze, když jsou ob? checked
+      // 2/ VISIBLE if audio AND video checked = FALSE - zobrazí run time vždy, krom? p?ípadu, kdy je audio zaškrtnuté samostatn?, video samostatn? nebo audio a video sou?asn? - opak toho, co chci
+      // 3/ INVISIBLE if audio AND video checked = TRUE - zobrazí run time vždy, krom? situace, kdy jsou oba checked
+      // 4/ INVISIBLE if audio AND video checked = FALSE - zobrazí run time pouze když je zaškrtnuté audio samostatn? nebo video samostatn? nebo ob? sou?asn? - to je to, co chci.
+      // zav?r - bod 1 a 3 jsou opakem a bod 2 a 4 jsou opakem
+      
+      'invisible' => array(
+        // caller - Content Format - audio
+        ':input[name="field_isepoc_content_format[und][31]"]' => array('checked' => FALSE),
+        // caller - Content Format - video
+        ':input[name="field_isepoc_content_format[und][32]"]' => array('checked' => FALSE),
+      ),
+    );
+    
+    // listener - Event Reference
+    $form['field_isepoc_event_ref']['#states'] = array(
+      'visible' => array(
+        // caller - Content Type - Presentation
+        'select[name="field_isepoc_content_type_ref[und]"]' => array(
+          'value' => 53),
+      ),
+    );
+    // listener - Serie Reference
+    $form['field_isepoc_is_serie_ref']['#states'] = array(
+      'invisible' => array(
+        // caller - Content Type - Presentation
+        'select[name="field_isepoc_content_type_ref[und]"]' => array(
+          'value' => 53),
+      ),
+    );    
+    
+//     listener - ISBN-13
+    $form['field_isepoc_isbn_13']['#states'] = array(
+      'visible' => array(
+        // caller - Content Type - Book
+        'select[name="field_isepoc_content_type_ref[und]"]' => array(
+          'value' => 56),
+      ),
+    );
+    // listener - Edition
+    $form['field_isepoc_edition']['#states'] = array(
+      'visible' => array(
+        // caller - Content Type - Book
+        'select[name="field_isepoc_content_type_ref[und]"]' => array(
+          'value' => 56),
+      ),
+    );
+    // listener - Amount of Pages
+    $form['field_isepoc_amount_of_pages']['#states'] = array(
+      'visible' => array(
+        // caller - Content Type - Book
+        'select[name="field_isepoc_content_type_ref[und]"]' => array(
+          'value' => 56),
+      ),
+    );
+	
+	
+	 // listener - Twitter Post
+    $form['field_isepoc_twitter_post']['#states'] = array(
+      'visible' => array(
+        // caller - ShareOn - Twitter		  
+		':input[name="field_isepoc_share[und][145]"]' => array(
+          'checked' => TRUE),
+      ),
+    );
+  }
+  
+  // IS node form
+  if($form_id == 'isepoc_is_node_form') {
+         
+    // listener - Serie Part
+    $form['field_isepoc_serie_part']['#states'] = array(
+      'invisible' => array(
+        // caller - Serie Reference
+        'select[name="field_isepoc_is_serie_ref[und]"]' => array(
+          'value' => "_none"),
+      ),
+    );
+    // listener - Serie Part
+    $form['field_isepoc_image']['#states'] = array(
+      'visible' => array(
+        // caller - Serie Reference
+        'select[name="field_isepoc_is_serie_ref[und]"]' => array(
+          'value' => "_none"),
+      ),
+    );
+  }  
+  // OC node form
+  if($form_id == 'isepoc_oc_node_form') {
+         
+    // listener - Serie Part
+    $form['field_isepoc_serie_part']['#states'] = array(
+      'invisible' => array(
+        // caller - Serie Reference
+        'select[name="field_isepoc_oc_serie_ref[und]"]' => array(
+          'value' => "_none"),
+      ),
+    );
+      
+    // listener - Text
+    $form['field_isepoc_body']['#states'] = array(
+      'visible' => array(
+        // caller - Content Format - text (with images)
+        ':input[name="field_isepoc_content_format[und][29]"]' => array(
+          'checked' => TRUE),
+      ),
+    );
+    // listener - Images
+    $form['field_isepoc_images']['#states'] = array(
+      'visible' => array(
+        // caller - Content Format - text (with images)
+        ':input[name="field_isepoc_content_format[und][29]"]' => array(
+          'checked' => TRUE),
+      ),
+    );      
+  }
+}

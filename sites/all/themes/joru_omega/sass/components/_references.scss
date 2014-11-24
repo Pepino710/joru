@@ -1,0 +1,31 @@
+//
+// References Styles
+//
+
+.view-public-references {
+  
+  .views-row {
+    overflow: hidden;
+  }
+  
+  .views-field-field-public-images {
+    float: left;
+    margin: 1em 1.5em .5em 0;    
+  }
+  
+  .views-field-field-public-body p:first-child {
+    margin-top: 0;
+  }
+  
+  .views-field-field-public-client-reference,
+  .views-field-field-public-partner-reference,
+  .views-field-field-public-ref-cat-reference {
+    margin: .5em 0;
+    
+    .views-label {
+      float: left;
+      margin-right: .5em;
+      font-weight: bold;
+    }
+  }
+}
